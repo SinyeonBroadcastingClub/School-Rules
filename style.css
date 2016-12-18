@@ -1,0 +1,75 @@
+/* Eric Meyer's CSS Reset */
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+p{
+	color:#666666;
+	font-size:1.0em;
+	line-height: 130%;
+	margin-left: 5px;
+}
+h1, h2, h3, h4, h5, h6, input, button{
+	margin-left: 5px;
+}
+
+/* Go Home */
+#left_nav{color:#999;position:absolute;left:10px;top:0;font-size:12px;padding-left:5px;z-index:1000}
+#left_nav #to_home{padding-right:.5em;font-size:1.1em;margin-top:.9em}#left_nav #to_home a{text-indent:inherit;width:inherit;height:20px;line-height:20px;font-family:verdana !important}
+#left_nav #to_home a span{color:#d5412d}#left_nav>li{float:left;margin-right:1.5em;margin-top:1.3em}
+
+/* style */
+@import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);.hidden{display:none !important}
+body{font-family:NanumGothic,sans-serif;font-size:.75em;color:#666}a{text-decoration:none;color:#fff}
+#whole_wrapper{position:relative}#whole_wrapper>.head{background-color:#4DB6AC}#whole_wrapper>.head header{position:relative;text-align:center;z-index:14}
+#whole_wrapper>.head header hgroup{padding-top:80px}#whole_wrapper>.head header hgroup p.title a{font-size:2.4em; color:#fff;}
+#whole_wrapper>.head nav#main_menu{z-index:11}#whole_wrapper>.head nav#main_menu>div.wrapper>ul{padding:1.2em;text-align:center}
+#whole_wrapper>.head nav#main_menu>div.wrapper>ul>li{display:inline-block;padding:10px 0;z-index:12;position:relative}
+#whole_wrapper>.head nav#main_menu>div.wrapper>ul>li>div.label{border-left:1px solid #ccc}
+#whole_wrapper>.head nav#main_menu>div.wrapper>ul>li>div.label>a{color:#fff;font-size:1.2em;padding:10px 15px}
+#whole_wrapper>.head nav#main_menu>div.wrapper>ul li.selected>div.label a{color:#d5412d !important}
